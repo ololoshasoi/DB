@@ -1,0 +1,177 @@
+body {
+    background-color: #32bce9 ;
+	background-image: url(../office.jpg);
+	background-size: 100% 100%;
+	background-attachment: scroll;
+
+}
+
+
+label{
+	position:relative;
+    left:350px;
+	height:40px;
+    width: 300px;
+    font-family: Helvetica;
+	font-size: 20px;
+}
+
+select {
+    position:absolute;
+    left:600px;
+	height:50px;
+    width: 300px;
+	text-aling: center;
+	font-family: Helvetica;
+    font-size: 16px;
+    box-sizing: border-box;
+	margin:20px;
+    border-radius: 6px;
+    background-color: rgba(141, 251, 252, 0.25);
+}
+
+select:hover {
+    background-color: lightblue;
+}
+
+
+
+input[type=text] , input[type=password] {
+    background-color: rgba(141, 251, 252, 0.25);
+    position:absolute;
+    left:600px;
+	height:40px;
+    width: 400px;
+    padding: 20 px ;
+    box-sizing: border-box;
+	border-radius: 12px;
+	text-align: center;
+	margin-left:10;
+    font-family: Helvetica;
+}
+
+input[type=text]:hover {
+    background-color: lightblue;
+}
+input[type=password]:hover {
+    background-color: lightblue;
+}
+
+input[type=submit], input[type=reset]{
+position:relative;
+border-radius: 12px;
+height: 50px;
+width: 200px;
+text-align: center;
+font-family: Helvetica;
+color:#040A4D;
+font-size: 20px;
+background: -webkit-gradient(linear, 0 0, 0 100%, from(#BFF8F8), to(#EDFCFC));
+margin:  auto;
+text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.15);
+opacity: 0.85;
+}
+input[type=submit]:hover {
+background: -webkit-gradient(linear, 0 0, 0 100%, from(#28eaed), to(#DBFFFF));
+opacity: 1;
+}
+
+input[type=reset]:hover {
+background: -webkit-gradient(linear, 0 0, 0 100%, from(#28eaed), to(#DBFFFF));
+opacity: 1;
+} 
+
+table.answ{
+	border: 3px solid grey;
+	border-collapse: collapse;
+	 font-size: 14px;
+	 font-family: Helvetica;
+	 text-align: center;
+	 background-color: rgba(199, 199, 199, 0.5);
+}
+
+tr.answ {
+  font-weight: normal;
+  color: #039;
+  padding: 10px 15px;
+}
+
+td.answ {
+  border-top: 2px solid grey;
+   border-right: 2px solid grey;
+  border-right: 2px solid grey;
+  padding: 10px 15px;
+}
+
+tr.answ:hover td.answ {
+background: rgba(255, 191, 224, 0.5);
+}
+
+
+div.zagolovok {
+    position:relative;
+	align:center;
+	font-family: Western;
+	font-size: 40px;
+	letter-spacing: .1em;
+	color: #0226A7;
+    text-shadow: 2px 0 rgba(31, 115, 194, 0.2), 4px 0 rgba(31, 115, 194, 0.2), 6px 0 rgba(31, 115, 194, 0.2);
+    opacity: 0.75;
+}
+
+div.text {
+    position:relative;
+    left:350px;
+    margin:  15px;
+    width:750px;
+	height:60px;
+	 border-radius: 0 30px;
+	text-align: center;
+	background-color: rgba(199, 199, 199, 0.5);
+	font-family: Western;
+	font-size: 20px;
+	color: rgba(2, 2, 10, 0.8);
+   
+}
+
+
+button.menu{
+position:relative;
+left: 600px;
+border-radius: 12px;
+height: 50px;
+width: 300px;
+text-align: center;
+font-family: Helvetica;
+color:#040A4D;
+font-size: 20px;
+background: -webkit-gradient(linear, 0 0, 0 100%, from(#BFF8F8), to(#EDFCFC));
+margin:  auto;
+text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.15);
+opacity: 0.65;
+}      
+
+button.menu:hover {
+background: -webkit-gradient(linear, 0 0, 0 100%, from(#9AE4FE), to(#DBFFFF));
+opacity: 0.8;
+}
+
+button.away{
+position:relative;
+left: 600px;
+border-radius: 12px;
+height: 50px;
+width: 300px;
+text-align: center;
+font-family: Helvetica;
+font-size: 20px;
+background: -webkit-gradient(linear, 0 0, 0 100%, from(#FBEDFD), to(#FAF4FB));
+margin:  auto;
+text-shadow: 2px 1px 1px rgba(0, 0, 0.03, 0.25);
+opacity: 0.65;
+}      
+
+button.away:hover {
+background: -webkit-gradient(linear, 0 0, 0 100%, from(#FBDAEA), to(#FAF4F8));
+opacity: 0.8;
+}
